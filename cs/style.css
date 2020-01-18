@@ -1,0 +1,72 @@
+header {
+  background-image:url(../images/navbar-background.jpg);
+  margin:0px;
+//  border-width: 2px;
+  border-color: #FFFFFF;
+}
+footer {
+  background-color:rgb(118, 161, 167);
+  color:grey;
+}
+
+footer a {
+  text-decoration:none;
+  color:grey;
+  }
+
+footer a:visited { color:rgb(84, 107, 136)}
+
+.bton {
+  background: rgb(97, 95, 211);
+  color: white;
+  border: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:0.4cm;
+  border-radius: 8px;
+  margin-bottom:2px;
+}
+
+.bton:hover{background:rgb(37, 0, 124)}
+
+  
+.divider {border-bottom-style:solid; border-bottom-color:grey; margin:0px ;width: 100%; padding:15px;}
+  
+body * { 
+  overflow:hidden; 
+  font-family: "Arial";
+  position: relative;
+  }
+body {
+  background:white /*rgb(203, 236, 255)*/;
+  margin:0px;
+//  max-width:1000px;           //Idk if i like this so if u do i do
+//  margin-left:25%;            // the whole reason i added these lines is to empulate the NHS website here https://www.glenroydmedical.co.uk/ppg.aspx
+}
+
+h1 {}
+
+.PDFBox {
+  display:inline-block; 
+  background-color:rgb(118, 161, 167) ;
+  border-radius: 10px;
+  margin:2%;
+  padding:5px;
+  }
+
+.PDFButton {
+  background-color:rgb(216, 162, 61);
+  padding:4px;
+  border:none;
+  border-radius:3px;
+  left:auto;
+  right:auto;
+  display:block;
+  float:none;
+ }
+
+
+.PDFButton:hover {background-color:rgb(160, 114, 45);}
+//why the hell does it concider comments as errors
