@@ -1,6 +1,9 @@
 <!DOCTYPE = html>
 
 <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  <title>PPG</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/headerfooter.js"></script>
   <link href="cs/style.css" rel="stylesheet" type="text/css" /> 
@@ -8,39 +11,62 @@
 
 <body>
   <div id="header" class=""></div>
+<!--
+--Instructions--
+1. Upload PDF to PDF folder.
+2. Copy and Paste code below between the <center> tags.
+3. Change the data and href properties to the correct PDF link.
+4. Change the Title to the correct name and year.
+5. Ensure changes work on the site.
 
-  <div class="divider">
-    <centre><h1>Past Editions</h1></centre>
+<div class="PDFbox">
+  <p class="PDFBOXHeader">Title Name</p>
+  <object style="border-radius: 10px;" data="PDF/Insert filename here.pdf" type="application/pdf" width="600px" height="400px"></object>
+  <center><a href="PDF/Insert filename here.pdf">
+  <button class="PDFButton">Full Screen</button></a></center>
+</div>
+-->
 
-    <div class="PDFbox">
-      <p>HERE AND THERE April 2018</p>
-      <iframe src="PDF/HERE AND THERE  April 2018.pdf" width="300px" height="200px" alt="The code for the preview is not compatible with your browser"></iframe>
-      <br></br>
-      <a href="PDF/HERE AND THERE  April 2018.pdf"><button class="PDFButton">download</button></a>
-    </div>
+  <center>
+    <div class="divider">
+      <h1>All Editions</h1>
 
-    <div class="PDFbox">
-      <p>SPRING EDITION 2019</p>
-      <iframe src="PDF/SPRING  EDITION 2019.pdf" width="300px" height="200px" alt="The code for the preview is not compatible with your browser"></iframe><!-- NOTE with clients naming scheme there is a double space, ensure this is checked for future errors related to the pdf files or someone else can go ahead and rename them but i cba-->
-      <br></br>
-      <a href="PDF/SPRING  EDITION 2019.pdf"><button class="PDFButton">download</button></a>
-    </div>
+      <div class="PDFbox">
+        <p class="PDFBOXHeader">Spring Edition 2020</p>
+          <object style="border-radius: 10px;" data="PDF/SPRING  EDITION 2020.pdf" type="application/pdf" width="600px" height="400px"></object>
+        <center><a href="PDF/SPRING  EDITION 2020.pdf">
+        <button class="PDFButton">Full Screen</button></a></center>
+       </div>
 
-    <div class="PDFbox">
-      <p>SUMMER EDITION 2019</p>
-      <iframe src="PDF/SUMMER  EDITION 2019.pdf" width="300px" height="200px" alt="The code for the preview is not compatible with your browser"></iframe>
-      <br></br>
-      <a href="PDF/SUMMER  EDITION 2019.pdf"><button class="PDFButton">download</button></a>
+      <div class="PDFbox">
+        <p class="PDFBOXHeader">Autumn Edition 2019</p>
+          <object style="border-radius: 10px;" data="PDF/AUTUMN  EDITION 2019.pdf" type="application/pdf" width="600px" height="400px"></object>
+        <center><a href="PDF/AUTUMN  EDITION 2019.pdf">
+        <button class="PDFButton">Full Screen</button></a></center>
+      </div>
+
+      <div class="PDFbox">
+        <p class="PDFBOXHeader">Summer Edition 2019</p>
+          <object style="border-radius: 10px;" data="PDF/SUMMER  EDITION 2019.pdf" type="application/pdf" width="600px" height="400px"></object>
+        <center><a href="PDF/SUMMER  EDITION 2019.pdf">
+        <button class="PDFButton">Full Screen</button></a>
+      </div>
+
+      <div class="PDFbox">
+        <p class="PDFBOXHeader">Spring Edition 2019</p>
+          <object style="border-radius: 10px;" data="PDF/SPRING  EDITION 2019.pdf" type="application/pdf" width="600px" height="400px"></object>
+        <center><a href="PDF/SPRING  EDITION 2019.pdf">
+        <button class="PDFButton">Full Screen</button></a></center>
+      </div>
+
+      <div class="PDFbox">
+        <p class="PDFBOXHeader">Here and There April 2018</p>
+          <object style="border-radius: 10px;" data="PDF/HERE AND THERE  April 2018.pdf" type="application/pdf" width="600px" height="400px"></object>
+        <center><a href="PDF/HERE AND THERE  April 2018.pdf"><button class="PDFButton">Full Screen</button></a></center>
+      </div>
+
     </div>
-    
-    <div class="PDFbox">
-      <p>AUTUMN EDITION 2019</p>
-      <iframe src="PDF/AUTUMN  EDITION 2019.pdf" width="300px" height="200px" alt="The code for the preview is not compatible with your browser"></iframe>
-      <br></br>
-      <a href="PDF/AUTUMN  EDITION 2019.pdf"><button class="PDFButton">download</button></a>
-    </div>
-    
-  </div>
+  </center>
 
   <div id="footer"></div>
   <script>LoadHeaderFooter("#header","#footer");</script>

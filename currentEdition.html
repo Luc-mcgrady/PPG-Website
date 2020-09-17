@@ -1,23 +1,30 @@
 <!DOCTYPE = html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PPG</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/headerfooter.js"></script>
   <link href="cs/style.css" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
+  
   <div id="header"></div>
 
   <div class="divider">
-    <h1>Most recent comic</h1>
-    
-    <centre><div class="PDFbox">
-      <iframe src="PDF/AUTUMN  EDITION 2019.pdf" width="70%" height="70%" alt="The code for the preview is not compatible with your browser"></iframe> <!--Problem with width-->
-      <br></br>
-      <a href="PDF/AUTUMN  EDITION 2019.pdf"><button class="PDFButton">download</button></a>
-    </div></centre>
-
+    <h1>Most recent newsletter:</h1>
+  
+      <center>
+        <div class="PDFbox">
+          <p class="PDFBOXHeader">Current Edition</p>
+          <object style="border-radius:10px" data="PDF/SPRING  EDITION 2020.pdf" type="application/pdf" width="1500px" height = "750px"></object>
+          <br></br>
+          <a href="PDF/SPRING  EDITION 2020.pdf"><button class="PDFButton">Full Screen</button></a>
+       </div>
+     </center>
+  
   </div>
 
   <div id="footer"></div>
