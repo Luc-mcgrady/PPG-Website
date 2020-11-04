@@ -1,0 +1,23 @@
+
+
+
+<body>
+  
+  <div id="header"></div>
+
+  <div class="divider">
+    <h1>Most recent newsletter:</h1>
+  
+      <center>
+        <div class="PDFbox">
+          <p class="PDFBOXHeader">Current Edition</p>
+          <object style="border-radius:10px" data="/static/pdf/{{pdfnow}}" width="1500px" height = "750px"></object>
+          <br/>
+          <a href="/static/pdf/{{pdfnow}}"><button class="PDFButton">Full Screen</button></a>
+       </div>
+     </center>
+      <p> {{pdfnow}} </p>
+  </div>
+
+  <div id="footer"></div>
+</body>

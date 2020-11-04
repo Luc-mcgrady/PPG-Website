@@ -1,0 +1,19 @@
+
+<body>
+<!--
+-->
+
+    <div class="divider"><h1>All Editions</h1>
+      <div class="past_edition_grid">
+        {% for pdf in pdfs %}
+        <div class="PDFbox">
+          <p class="PDFBOXHeader">{{pdf}}</p>
+          <embed style="border-radius: 10px;" src="static/pdf/{{pdf}}.pdf" type="application/pdf" width="99%" height="400px">
+            <center><a href="static/pdf/{{pdf}}.pdf">
+            <button class="PDFButton">Full Screen</button></a></center>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+</body>
