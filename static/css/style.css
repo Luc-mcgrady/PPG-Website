@@ -5,25 +5,29 @@
 }
 
 header {
-  background-image:url(/static/images/navbar-background.jpg);
+  background-image:url(../images/navbar-background.jpg);
   margin:0px;
-  border-color: #FFFFFF;
-  
+//  border-width: 2px;
+  border-color: #FFFFFF;  
 }
+
 footer {
-  background-color:rgb(118, 161, 167);
-  color:rgb(235, 235, 235);
+  background-color:#7AA4A9;
+  color:#353535;
 }
 
-footerlink{
-  text-decoration:none;
-  color:rgb(209, 209, 209);
-  }
 
-footerlink:visited { color:rgb(84, 107, 136)}
+.footerlink{
+  text-decoration:none;
+}
+
+footerlink:visited {
+  color:rgb(84, 107, 136)
+}
 
 .contact {
   display:inline-block;
+  
 }
 
 .bton {
@@ -32,6 +36,7 @@ footerlink:visited { color:rgb(84, 107, 136)}
   height: 45px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
+  //text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 750;
   color: #000;
@@ -43,7 +48,7 @@ footerlink:visited { color:rgb(84, 107, 136)}
   cursor: pointer;
   outline: none;
   margin-top:8px;
-  background-image:url(/static/images/navbar-background.jpg);
+  background-image:url(../images/navbar-background.jpg);
   }
 
 
@@ -76,6 +81,8 @@ body * {
 body {
   background:white /*rgb(203, 236, 255)*/;
   margin:0px;
+//  max-width:1000px;           //Idk if i like this so if u do i do
+//  margin-left:25%;            // the whole reason i added these lines is to emulate the NHS website here https://www.glenroydmedical.co.uk/ppg.aspx
 }
 
 .BlockDisplay{
@@ -91,9 +98,31 @@ body {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
+.PDFBox {
+  display:inline-block; 
+  background-color:rgb(118, 161, 167) ;
+  border-radius: 10px;
+  margin:3%;
+  padding:5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  }
 
+.PDFBOXHeader {
+background-color:rgb(102, 102, 121);
+color:white;
+font-size:20px;
 
+margin-bottom:5px;
+margin-top:0px;
+margin-right:0px;
+margin-left:0px;
 
+padding-top:16px;
+padding-bottom:16px;
+border-radius: 10px;
+
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
 
 .PDFButton {
   background-color:rgb(145, 145, 168);
@@ -119,18 +148,18 @@ body {
 
 }
 
+
 .signup {
-  background-image:url(/static/images/navbar-background.jpg);
+  background-image:url(../images/navbar-background.jpg);
   background-position:-400px,0;
   
   animation-name:backgroundscroll;
-  animation-duration:10s;
+  animation-duration:30s;
   animation-iteration-count: infinite;
 
-  width:30%;
-  height:10%;
-  min-width:390px;
-  min-height:74px;
+  width:auto;
+  height:auto;
+
 
   font-size:300%;
   filter: sepia(100%);
@@ -140,6 +169,7 @@ body {
   font:400;
 }
 
+<<<<<<< HEAD
 .past_edition_grid {
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -169,6 +199,6 @@ body {
     padding:16px;
 
     border-radius: 10px;
-
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
+
+//why the hell does it concider comments as errors

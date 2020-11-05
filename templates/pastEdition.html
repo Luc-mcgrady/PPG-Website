@@ -4,7 +4,8 @@
 -->
 
     <div class="divider"><h1>All Editions</h1>
-      <div class="past_edition_grid">
+	<center>
+		<div class="past_edition_grid">
         {% for pdf in pdfs %}
         <div class="PDFbox">
           <p class="PDFBOXHeader">{{pdf}}</p>
@@ -12,8 +13,7 @@
             <center><a href="/static/pdf/newsletter/{{pdf}}.pdf">
             <button class="PDFButton">Full Screen</button></a></center>
           </div>
-        {% endfor %}
-      </div>
+	</center>	
     </div>
 
 </body>
