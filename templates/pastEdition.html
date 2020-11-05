@@ -8,8 +8,8 @@
         {% for pdf in pdfs %}
         <div class="PDFbox">
           <p class="PDFBOXHeader">{{pdf}}</p>
-          <embed style="border-radius: 10px;" src="static/pdf/{{pdf}}.pdf" type="application/pdf" width="99%" height="400px">
-            <center><a href="static/pdf/{{pdf}}.pdf">
+          <embed style="border-radius: 10px;" src="/static/pdf/newsletter/{{pdf}}.pdf" type="application/pdf" width="99%" height="400px">
+            <center><a href="/static/pdf/newsletter/{{pdf}}.pdf">
             <button class="PDFButton">Full Screen</button></a></center>
           </div>
         {% endfor %}

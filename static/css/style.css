@@ -144,6 +144,7 @@ body {
     display: inline-grid;
     grid-template-columns: auto auto;
     width: 70%;
+    margin:auto;
     }
 
 .past_edition_grid > div {
@@ -160,7 +161,7 @@ body {
     color:white;
     font-size:20px;
 
-    margin-bottom:5px;
+    margin-bottom:1%;
     margin-top:0px;
     margin-right:0px;
     margin-left:0px;

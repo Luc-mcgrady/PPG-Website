@@ -3,7 +3,7 @@ import jinja2
 import os
 
 server = flask.Flask(__name__)
-pdfnames = os.listdir("static/pdf")
+pdfnames = os.listdir("static/pdf/newsletter")
 pdfnames = ["".join(a.split('.')[:-1]) for a in pdfnames]
 currentedition = open("config/current_edition_filename.txt").read()
 
